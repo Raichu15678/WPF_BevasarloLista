@@ -126,6 +126,26 @@ namespace WPF_BevasarloLista
 
         }
 
-        
+        private void bt_listabetolt_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> txtfajlok = new List<string>();
+            string mappa = @"C:\Users\Admin\Desktop\School\SzTeszt\WPF_BevasarloLista\FajlokListabaOlvasasa\bin\Debug";
+            if (Directory.Exists(mappa))
+            {
+                string[] fajlok = Directory.GetFiles(mappa, "*.txt");
+                foreach (var item in fajlok)
+                {
+                    txtfajlok.Add(System.IO.Path.GetFileName(item));
+                }
+                foreach (var item in txtfajlok)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Nincs ilyen mappa");
+            }
+        }
     }
 }

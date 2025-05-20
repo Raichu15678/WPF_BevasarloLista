@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_BevasarloLista", "WPF_BevasarloLista\WPF_BevasarloLista.csproj", "{BB0CD51D-F310-4557-9D99-46732508D21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FajlokListabaOlvasasa", "FajlokListabaOlvasasa\FajlokListabaOlvasasa.csproj", "{93C09AA9-38C6-4089-B4D4-A16F789A4536}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BB0CD51D-F310-4557-9D99-46732508D21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0CD51D-F310-4557-9D99-46732508D21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0CD51D-F310-4557-9D99-46732508D21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C09AA9-38C6-4089-B4D4-A16F789A4536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C09AA9-38C6-4089-B4D4-A16F789A4536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C09AA9-38C6-4089-B4D4-A16F789A4536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C09AA9-38C6-4089-B4D4-A16F789A4536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
